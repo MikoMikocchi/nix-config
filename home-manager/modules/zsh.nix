@@ -10,7 +10,7 @@
 
     shellAliases =
       let
-        flakeDir = "~/nix";
+        flakeDir = "~/nix-config";
       in {
       rb = "sudo nixos-rebuild switch --flake ${flakeDir}";
       upd = "nix flake update ${flakeDir}";
@@ -27,8 +27,6 @@
       ff = "fastfetch";
       pf = "pfetch";
       g = "git";
-      nix-rebuild = "sudo nixos-rebuild switch --flake ./nix-config";
-      home-rebuild = "home-manager switch --flake ./nixos-config";
     };
 
     oh-my-zsh = {
