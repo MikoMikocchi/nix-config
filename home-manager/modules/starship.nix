@@ -19,7 +19,7 @@
       username = {
         show_always = true;
 	      format = "[$user]($style)@";
-        style = "bold cyan";
+        style_user = "bold cyan";
       };
 
       directory = {

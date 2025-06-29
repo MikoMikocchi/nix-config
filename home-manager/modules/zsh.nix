@@ -27,36 +27,15 @@
       ff = "fastfetch";
       pf = "pfetch";
       g = "git";
-      nrs = "sudo nixos-rebuild switch --flake ./nix-config";
-      hms = "home-manager switch --flake ./nixos-config";
+      nix-rebuild = "sudo nixos-rebuild switch --flake ./nix-config";
+      home-rebuild = "home-manager switch --flake ./nixos-config";
     };
 
     oh-my-zsh = {
       enable = true;
-      enableCompletion = true;
       plugins = [
         "git" 
         "sudo"
-        {
-        name = "zsh-nix-shell";
-        file = "nix-shell.plugin.zsh";
-        src = pkgs.fetchFromGitHub {
-            owner = "chisui";
-            repo = "zsh-nix-shell";
-            rev = "v0.8.0";
-            sha256 = "1lzrn0n4fxfcgg65v0qhnj7wnybybqzs4adz7xsrkgmcsr0ii8b7";
-          };
-        }
-        {
-          name = "zsh-syntax-highlighting";
-          src = fetchFromGitHub {
-            owner = "zsh-users";
-            repo = "zsh-syntax-highlighting";
-            rev = "0.6.0";
-            sha256 = "0zmq66dzasmr5pwribyh4kbkk23jxbpdw4rjxx0i7dx8jjp2lzl4";
-          };
-          file = "zsh-syntax-highlighting.zsh";
-        }
       ];
       theme = "agnoster";
     };
