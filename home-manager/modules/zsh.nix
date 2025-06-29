@@ -27,7 +27,8 @@
       ff = "fastfetch";
       pf = "pfetch";
       g = "git";
-      nrs = "sudo nixos-rebuild switch --flake ./nix-config"
+      nrs = "sudo nixos-rebuild switch --flake ./nix-config";
+      hms = "home-manager switch --flake ./nixos-config";
     };
 
     oh-my-zsh = {
