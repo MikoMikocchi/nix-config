@@ -38,8 +38,10 @@
     light
     lux
     mediainfo
+    microfetch
     neofetch
     nix-index
+    nix-output-monitor
     ntfs3g
     openssl
     pfetch-rs
@@ -74,6 +76,7 @@
     seatd
     waybar
     xdg-desktop-portal-hyprland
+    xdg-desktop-portal-gtk
 
     # GNOME stuff
     gnome-tweaks
@@ -86,8 +89,7 @@
 
     # GPU stuff
     amdvlk
-    glaxnimate
-
+    
     # Screenshotting
     flameshot
     grim

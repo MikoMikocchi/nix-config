@@ -10,7 +10,7 @@
 
     shellAliases =
       let
-        flakeDir = "./nix-config";
+        flakeDir = "~/nix-config";
       in {
       rb = "sudo nixos-rebuild switch --flake ${flakeDir}";
       upd = "nix flake update ${flakeDir}";
