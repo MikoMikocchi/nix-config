@@ -1,7 +1,9 @@
 {
   imports = [
     ./eza.nix
-    ./zsh.nix
+    ./git.nix
+    ./hyprland
     ./starship.nix
+    ./zsh.nix
   ];
 }
