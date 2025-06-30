@@ -51,8 +51,8 @@
         "$mainMod, mouse_up, workspace, e-1"
 
         ", print, exec, grim $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')"
-        "binds = CTRL, print, exec, grim -g "$(slurp -o)" $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')"
-        "binds = CTRL SHIFT, print, exec, grim -g "$(slurp)" $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')"
+        "binds = CTRL, print, exec, grim -g \"$(slurp -o)\" $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')"
+        "binds = CTRL SHIFT, print, exec, grim -g \"$(slurp)\" $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')"
       ];
 
       bindm = [
