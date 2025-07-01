@@ -15,7 +15,7 @@
     };
 
     # Wayland, X, etc. support for session vars
-    systemd.user.sessionVariables = config.home-manager.users.justinas.home.sessionVariables;
+    systemd.user.sessionVariables = config.home-manager.users.miko.home.sessionVariables;
   };
 
   qt = {
