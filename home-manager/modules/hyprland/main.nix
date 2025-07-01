@@ -15,13 +15,13 @@
 
       "$mainMod" = "SUPER";
       "$terminal" = "foot";
-      "$fileManager" = "nautilus";
+      "$fileManager" = "thunar";
       "$menu" = "wofi --show drun";
 
       exec-once = [
         "waybar"
-        "swww init"
-        "swww img $(xdg-user-dir PICTURES)/nix-wallpaper-nineish-catppuccin-mocha-alt.png"
+        "swww-daemon"
+        "swww img ~/Изображения/nix-wallpaper-nineish-catppuccin-mocha-alt.png"
       ];
 
       general = {

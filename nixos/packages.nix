@@ -57,6 +57,7 @@
     imv
     mako
     screenkey
+    xfce.thunar
 
     # Xorg stuff
     #xclip
