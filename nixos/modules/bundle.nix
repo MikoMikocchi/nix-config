@@ -5,7 +5,7 @@
     ./env.nix
     ./user.nix
     ./nm.nix
-    ./gnome.nix
+    ./sddm.nix
     ./hyprland.nix
     ./trim.nix
     ./bluetooth.nix
