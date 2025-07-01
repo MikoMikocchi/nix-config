@@ -64,7 +64,7 @@
         fullscreen_opacity = 1.0;
       };
 
-      animation = {
+      animations = {
         enabled = true;
 
         bezier = [
