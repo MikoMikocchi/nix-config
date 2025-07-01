@@ -22,7 +22,6 @@
 
       url = {
         "osc8-underline" = "url-mode";
-        launch = "xdg-open ${url}";
       };
 
       cursor = {

@@ -20,7 +20,8 @@
 
       exec-once = [
         "waybar"
-        "swww $(xdg-user-dir PICTURES)/nix-wallpaper-nineish-catppuccin-mocha-alt.png"
+        "swww init"
+        "swww img $(xdg-user-dir PICTURES)/nix-wallpaper-nineish-catppuccin-mocha-alt.png"
       ];
 
       general = {
@@ -75,7 +76,7 @@
           "quick,0.15,0,0.1,1"
         ];
 
-        animations = [
+        animation = [
           "global, 1, 10, default"
           "border, 1, 5.39, easeOutQuint"
           "windows, 1, 4.79, easeOutQuint"
