@@ -20,7 +20,7 @@
 
       exec-once = [
         "waybar"
-        "hyprpaper"
+        "swww $(xdg-user-dir PICTURES)/nix-wallpaper-nineish-catppuccin-mocha-alt.png"
       ];
 
       general = {
@@ -64,7 +64,7 @@
         fullscreen_opacity = 1.0;
       };
 
-      animations = {
+      animation = {
         enabled = true;
 
         bezier = [
@@ -125,7 +125,6 @@
       gestures = {
         workspace_swipe = true;
         workspace_swipe_forever = true;
-        workspace_swipe_invert = false;
       };
 
       device = {

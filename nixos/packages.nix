@@ -71,6 +71,7 @@
     # WMs and stuff
     hyprland
     seatd
+    swww
     waybar
     xdg-desktop-portal-hyprland
     xdg-desktop-portal-gtk
