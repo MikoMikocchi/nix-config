@@ -3,7 +3,7 @@
     ./eza.nix
     ./foot.nix
     ./git.nix
-    ./gtk.nix`
+    ./gtk.nix
     ./hyprland
     ./starship.nix
     ./zsh.nix
